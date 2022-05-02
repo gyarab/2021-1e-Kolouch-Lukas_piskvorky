@@ -1,29 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <HBox prefHeight="100.0" prefWidth="450.0" />
-      <HBox prefHeight="100.0" prefWidth="450.0">
-         <children>
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="150.0" text="Button" />
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="150.0" text="Button" />
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="150.0" text="Button" />
-         </children>
-      </HBox>
-      <HBox prefHeight="100.0" prefWidth="450.0">
-         <children>
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="150.0" text="Button" />
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="150.0" text="Button" />
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="150.0" text="Button" />
-         </children></HBox>
-      <HBox prefHeight="100.0" prefWidth="450.0">
-         <children>
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="150.0" text="Button" />
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="150.0" text="Button" />
-            <Button mnemonicParsing="false" prefHeight="100.0" prefWidth="150.0" text="Button" />
-         </children></HBox>
-   </children>
-</VBox>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.piskvorky.HelloController">
+    <children>
+        <FlowPane layoutX="50" layoutY="100" prefHeight="400.0" prefWidth="400.0">
+            <children>
+                <Button fx:id="button1" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button2" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button3" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button4" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button5" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button6" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button7" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button8" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button9" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button10" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button11" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button12" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button13" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button14" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button15" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button16" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button17" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button18" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button19" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button20" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button21" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button22" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button23" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button24" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button25" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button26" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button27" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button28" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button29" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button30" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button31" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button32" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button33" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button34" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button35" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button36" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button37" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button38" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button39" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button40" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button41" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button42" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button43" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button44" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button45" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button46" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button47" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button48" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button49" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button50" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button51" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button52" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button53" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button54" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button55" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button56" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button57" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button58" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button59" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button60" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button61" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button62" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button63" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button64" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button65" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button66" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button67" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button68" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button69" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button70" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button71" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button72" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button73" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button74" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button75" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button76" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button77" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button78" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button79" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button80" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button81" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button82" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button83" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button84" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button85" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button86" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button87" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button88" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button89" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button90" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button91" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button92" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button93" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button94" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button95" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button96" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button97" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button98" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button99" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+                <Button fx:id="button100" mnemonicParsing="" prefHeight="40.0" prefWidth="40.0" text="" />
+
+
+            </children></FlowPane>
+        <Button layoutX="200.0" layoutY="525" mnemonicParsing="false" onAction="#restartHry" prefHeight="50.0" prefWidth="100.0" text="restart">
+            <font>
+                <Font size="15.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="DEFAULT" />
+            </cursor></Button>
+        <Text fx:id="winnertext" layoutX="155.0" layoutY="64.0" strokeType="OUTSIDE" text="Piškvorky" textAlignment="CENTER" wrappingWidth="250">
+            <font>
+                <Font size="48.0" />
+            </font></Text>
+        <Label fx:id="kdohraje" layoutX="50" layoutY="80" prefHeight="20.0" prefWidth="80.0" text="Hraje X" />
+    </children>
+</AnchorPane>
